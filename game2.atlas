@@ -13,49 +13,49 @@ NationIcons/Diabolos
   index: -1
 UnitIcons/Hellborn Warrior
   rotate: false
-  xy: 0, 101
+  xy: 101, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Archer
   rotate: false
-  xy: 0, 201
+  xy: 201, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Composite Bowman 
   rotate: false
-  xy: 0, 301
+  xy: 301, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Crossbowman
   rotate: false
-  xy: 0, 401
+  xy: 401, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Machine Gun
   rotate: false
-  xy: 0, 501
+  xy: 501, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Gatling Gun
   rotate: false
-  xy: 0, 601
+  xy: 601, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Demonic Mechanized Infantry
   rotate: false
-  xy: 0, 701
+  xy: 701, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
