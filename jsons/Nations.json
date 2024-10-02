@@ -21,8 +21,8 @@
 		"outerColor": [0,0,0],
 		"innerColor": [155,0,0],
 
-		"uniqueName": "Hell's Influence",
-		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [5] turns", "Earn [33]% of killed [Military] unit's [Strength] as [Faith]"],
+		"uniqueName": "Hell's Influence", 
+		"uniques": ["Can spend Gold to annex or puppet a City-State that has been your ally for [3] turns.", "Earn [33]% of killed [Military] unit's [Strength] as [Faith]"],
 		"cities": ["Pandaemonium", "Inferno Heights", "Abyssal Plains", "Tartarus Town", "Brimstone Borough", "Hades Haven", "Fiery Fields", "Searing Sands", "Devil’s Den", "Perdition Point", "Hellgate Pass", "Sin City", "Blazing Borough", "Cursed Crossroads", "Demon’s Domain", "Eternal Embers", "Flamefront", "Gehenna Grove", "Lucifer’s Landing", "Malebolge", "Nether Nexus", "Purgatory Plaza", "Scorching Sands", "Smoldering Settlement", "Stygian Shores", "Torment Town", "Underworld Utopia", "Wicked Wasteland", "Wrathful Wards", "Yawning Abyss", "Dark Dominion", "Fiend’s Fortress"],
 		"spyNames": ["Azazel", "Belial", "Forneus", "Malphas", "Agares", "Bifrons", "Dantalion", "Gusion", "Marax", "Vassago"],
 
