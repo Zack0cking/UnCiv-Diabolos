@@ -1,3 +1,108 @@
 [
+	{
+		"name": "Hellborn Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Diabolos",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 60,
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "Demonic Archer",
+		"unitType": "Archery",
+		"uniqueTo": "Diabolos",
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 7,
+		"cost": 60,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Demonic Composite Bowman",
+		"unitType": "Archery",
+		"uniqueTo": "Diabolos",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 115,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "arrow"
+	},
+
+	{
+		"name": "Demonic Crossbowman",
+		"unitType": "Archery",
+		"uniqueTo": "Diabolos",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 180,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "crossbow"
+	},
+
+	{
+		"name": "Demonic Gatling Gun",
+		"unitType": "Ranged Gunpowder",
+		"uniqueTo": "Diabolos",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 350,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Machine Gun",
+		"obsoleteTech": "Ballistics",
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Demonic Machine Gun",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 60,
+		"rangedStrength": 60,
+		"cost": 450,
+		"requiredTech": "Ballistics",
+		"upgradesTo": "Mechanized Infantry",
+		"uniques": ["Can be purchased with [Faith] [in all cities]",],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Demonic Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 475,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Can be purchased with [Faith] [in all cities]", "Never appears as a Barbarian unit"],
+		"promotions": ["March"],
+		"attackSound": "tankshot"
+	},
+
 	
 ]
