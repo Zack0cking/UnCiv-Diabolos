@@ -101,7 +101,7 @@
 		"name": "Demonic Mechanized Infantry",
 		"unitType": "Gunpowder",
 		"uniqueTo": "Diabolos",
-		"replaces": "Mechanuzed Infantry",
+		"replaces": "Mechanized Infantry",
 		"movement": 3,
 		"strength": 90,
 		"cost": 475,
