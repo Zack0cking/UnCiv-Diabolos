@@ -2,10 +2,12 @@
   {
     "name": "Demonic",
     "movementType": "Land"
+    "uniques": ["Can be purchased with [Faith] [in all cities]"],
   }
 
   {
     "name": "Hellborn",
     "movementType": "Land"
+    "uniques": ["Can be purchased with [Faith] [in all cities]"],
   }
 ]
