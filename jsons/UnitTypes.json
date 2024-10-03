@@ -1,6 +1,11 @@
 [
   {
-    "name": "Demon",
+    "name": "Demonic",
+    "movementType": "Land"
+  }
+
+  {
+    "name": "Hellborn",
     "movementType": "Land"
   }
 ]
