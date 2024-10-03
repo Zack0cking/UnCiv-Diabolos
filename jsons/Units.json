@@ -7,7 +7,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 60,
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "nonmetalhit"
 	},
