@@ -6,6 +6,7 @@
 		"science": 3,
 		"gold": 3,
 		"culture": 1,
+		"Faith": 1,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city","Gain enough Faith for a Pantheon"],
