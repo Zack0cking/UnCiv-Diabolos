@@ -1,1 +1,17 @@
-
+[
+  {
+    "columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Blood Sacrifice",
+				"row": 6,
+				"quote": "'The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants.' - Thomas Jefferson",
+				"uniques": ["Gain enough Faith for a Pantheon"],
+        "uniqueto": "Diabolos"
+			}
+  }
+]
