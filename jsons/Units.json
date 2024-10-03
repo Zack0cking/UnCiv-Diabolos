@@ -1,4 +1,5 @@
 [
+//Swordman Line
 	{
 		"name": "Hellborn Warrior",
 		"unitType": "Hellborn",
@@ -7,10 +8,170 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 60,
+		"upgradesTo": "Hellborn Swordsman",
 		"promotions": ["March"],
 		"attackSound": "nonmetalhit"
 	},
+
+	{
+		"name": "Hellborn Swordsman",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Swordsman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 100,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Hellborn Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"promotions": ["March"],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Hellborn Longswordsman",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Longswordsman",
+		"movement": 2,
+		"strength": 21,
+		"cost": 180,
+		"requiredTech": "Steel",
+		"upgradesTo": "Hellborn Musketman",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"promotions": ["March"],
+		"attackSound": "metalhit"
+	},
+
+	{
+		"name": "Hellborn Musketman",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Diabolos",
+		"replaces": "Musketman",
+		"movement": 2,
+		"strength": 24,
+		"cost": 225,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Hellborn Rifleman",
+		"obsoleteTech": "Rifling",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Hellborn Rifleman",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Rifelman",
+		"movement": 2,
+		"strength": 34,
+		"cost": 300,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Hellborn Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+
+	{
+		"name": "Hellborn Infantry",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Infantry",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Hellborn Mechanized Infantry",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+
+//Spearman Line
+	{
+		"name": "Hellborn Spearman",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Hellborn Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["March"],
+		"attackSound": "metalhit"
+	},
 	
+	{
+		"name": "Hellborn Pikeman",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 16,
+		"cost": 135,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Hellborn Lancer",
+		"obsoleteTech": "Metallurgy",
+		"promotions": ["March"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Hellborn Lancer",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Lancer",
+		"movement": 4,
+		"strength": 25,
+		"cost": 275,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I","March"],
+		"upgradesTo": "Hellborn Anti-Tank Gun",
+		"obsoleteTech": "Combustion",
+		"attackSound": "horse"
+	},
+
+	{
+		"name": "Hellborn Anti-Tank Gun",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Diabolos",
+		"replaces": "Anti-Tank Gun",
+		"movement": 2,
+		"strength": 50,
+		"cost": 400,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Hellborn Helicopter Gunship",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
+	},
+
+	{
+		"name": "Hellborn Helicopter Gunship",
+		"unitType": "Hellborn",
+		"uniqueTo": "Diabolos",
+		"replaces": "Helicopter Gunship",
+		"movement": 6,
+		"strength": 60,
+		"cost": 600,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"promotions": ["March"],
+		"attackSound": "machinegun"
+	},
+	
+// Archer Line
 	{
 		"name": "Demonic Archer",
 		"unitType": "Demonic",
@@ -22,7 +183,7 @@
 		"cost": 60,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "Demonic Composite Bowman",
 		"promotions": ["March"],
 		"attackSound": "arrow"
 	},
@@ -38,7 +199,7 @@
 		"cost": 115,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "Demonic Crossbowman",
 		"promotions": ["March"],
 		"attackSound": "arrow"
 	},
@@ -53,7 +214,7 @@
 		"rangedStrength": 18,
 		"cost": 180,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "Demonic Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"promotions": ["March"],
 		"attackSound": "crossbow"
@@ -70,7 +231,7 @@
 		"rangedStrength": 30,
 		"cost": 350,
 		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
+		"upgradesTo": "Demonic Machine Gun",
 		"obsoleteTech": "Ballistics",
 		"promotions": ["March"],
 		"attackSound": "machinegun"
@@ -86,7 +247,7 @@
 		"rangedStrength": 60,
 		"cost": 450,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "Hellborn Mechanized Infantry",
 		"promotions": ["March"],
 		"attackSound": "machinegun"
 	},
