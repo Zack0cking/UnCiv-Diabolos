@@ -23,7 +23,6 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "arrow"
 	},
@@ -40,7 +39,6 @@
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
 		"upgradesTo": "Crossbowman",
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "arrow"
 	},
@@ -57,7 +55,6 @@
 		"requiredTech": "Machinery",
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "crossbow"
 	},
@@ -75,7 +72,6 @@
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Machine Gun",
 		"obsoleteTech": "Ballistics",
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "machinegun"
 	},
@@ -91,7 +87,6 @@
 		"cost": 450,
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Mechanized Infantry",
-		"uniques": ["Can be purchased with [Faith] [in all cities]"],
 		"promotions": ["March"],
 		"attackSound": "machinegun"
 	},
@@ -105,7 +100,7 @@
 		"strength": 90,
 		"cost": 475,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Can be purchased with [Faith] [in all cities]", "Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["March"],
 		"attackSound": "tankshot"
 	},
