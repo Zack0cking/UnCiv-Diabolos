@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Hellborn Warrior",
-		"unitType": "Sword",
+		"unitType": "Hellborn",
 		"uniqueTo": "Diabolos",
 		"replaces": "Warrior",
 		"movement": 2,
@@ -14,7 +14,7 @@
 	
 	{
 		"name": "Demonic Archer",
-		"unitType": "Archery",
+		"unitType": "Demonic",
 		"uniqueTo": "Diabolos",
 		"replaces": "Archer",
 		"movement": 2,
@@ -31,7 +31,7 @@
 
 	{
 		"name": "Demonic Composite Bowman",
-		"unitType": "Archery",
+		"unitType": "Demonic",
 		"uniqueTo": "Diabolos",
 		"replaces": "Composite Bowman",
 		"movement": 2,
@@ -48,7 +48,7 @@
 
 	{
 		"name": "Demonic Crossbowman",
-		"unitType": "Archery",
+		"unitType": "Demonic",
 		"uniqueTo": "Diabolos",
 		"replaces": "Crossbowman",
 		"movement": 2,
@@ -65,7 +65,7 @@
 
 	{
 		"name": "Demonic Gatling Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Demonic",
 		"uniqueTo": "Diabolos",
 		"replaces": "Gatling Gun",
 		"range": 1,
@@ -82,7 +82,7 @@
 	},
 	{
 		"name": "Demonic Machine Gun",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Demonic",
 		"uniqueTo": "Diabolos",
 		"replaces": "Machine Gun",
 		"range": 1,
@@ -98,8 +98,8 @@
 	},
 
 	{
-		"name": "Demonic Mechanized Infantry",
-		"unitType": "Gunpowder",
+		"name": "Hellborn Mechanized Infantry",
+		"unitType": "Hellborn",
 		"uniqueTo": "Diabolos",
 		"replaces": "Mechanized Infantry",
 		"movement": 3,
