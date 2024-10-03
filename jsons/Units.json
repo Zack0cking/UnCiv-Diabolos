@@ -7,7 +7,6 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 60,
-		"promotions": ["March"],
 		"attackSound": "nonmetalhit"
 	},
 	
